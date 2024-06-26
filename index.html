@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile-photo">
+                <!-- Reemplaza 'https://i.imgur.com/tu-imagen.jpg' con la URL de tu foto -->
+                <img src="_DSC2396.png" alt="Foto de perfil">
+            </div>
+            <div class="profile-info">
+                <h1>Emilio Valdez</h1>
+                <p><i class="fas fa-map-marker-alt"></i> Correguidora Queretaro</p>
+                <p><i class="fas fa-phone"></i> 442 354 5576</p>
+                <p><i class="fas fa-envelope"></i> emiliovg28@gmail.com</p>
+            </div>
+            <nav class="tab-menu">
+                <ul>
+                    <li><a href="#" onclick="showSection('profile')"><i class="fas fa-user"></i> <span>Perfil</span></a></li>
+                    <li><a href="#" onclick="showSection('experience')"><i class="fas fa-briefcase"></i> <span>Experiencia</span></a></li>
+                    <li><a href="#" onclick="showSection('education')"><i class="fas fa-graduation-cap"></i> <span>Educación</span></a></li>
+                    <li><a href="#" onclick="showSection('skills')"><i class="fas fa-tools"></i> <span>Habilidades</span></a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="content">
+            <section id="profile" class="profile active">
+                <h2><i class="fas fa-user"></i> Perfil</h2>
+                <p>Soy Emilio Valdez Garduño, un profesional apasionado por el futuro de las finanzas. Con una sólida experiencia como vendedor y orador, he demostrado consistentemente mi habilidad para alcanzar resultados sobresalientes. Mi interés por las finanzas bursátiles me impulsa a buscar constantemente conocimientos en este campo dinámico y competitivo.</p>
+                
+                <h3>Habilidades</h3>
+                <ul>
+                    <li>Vendedor experimentado con un historial comprobado de éxito en la capacitación de equipos y el logro de objetivos de ventas.</li>
+                    <li>Orador eficaz, capaz de comunicar ideas complejas de manera clara y persuasiva.</li>
+                    <li>Especial interés y conocimiento en finanzas bursátiles, con habilidades en análisis y toma de decisiones en mercados financieros.</li>
+                    <li>Capacidad para adaptarme rápidamente a entornos cambiantes y manejar múltiples tareas simultáneamente con precisión.</li>
+                </ul>
+                
+                <h3>Objetivos</h3>
+                <p>Mi objetivo es continuar desarrollándome como líder en el sector y expandir mis conocimientos en las finanzas bursátiles. Aspiro a contribuir al crecimiento y la innovación en mi campo, aplicando mis habilidades en ventas, oratoria y análisis financiero para lograr resultados significativos y duraderos.</p>
+            </section>            
+            <section id="experience" class="experience">
+                <h2><i class="fas fa-briefcase"></i> Experiencia Profesional</h2>
+                <div class="job">
+                    <h3>Director de Ventas</h3>
+                    <p>Rainbow Querétaro | 2021-2023</p>
+                    <ul>
+                        <li>Capacitación de vendedores e impulso de metas mensuales.</li>
+                        <li>Top 3 vendedores a nivel nacional y mejor vendedor de la ciudad.</li>
+                        <li>Facturación mensual máxima de 660,000 MXN en aspiradoras.</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <h3>Trader Minorista de Futuros</h3>
+                    <p>CME | 2022-Actualidad</p>
+                    <ul>
+                        <li>Swing trading con análisis fundamental y day trading con orderflow.</li>
+                        <li>Desarrollo de sistema para captar capital de terceras personas.</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <h3>Transferencias Internacionales y AML</h3>
+                    <p>Kraken (Payward Inc) | 2023</p>
+                    <ul>
+                        <li>Manejo de cuentas y cumplimiento de AML en casa de cambio de criptomonedas.</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <h3>Supervisor de Pintores de Altura</h3>
+                    <p>Trabajo independiente en torres eléctricas en Canadá | Mayo 2023 - Octubre 2023</p>
+                </div>
+            </section>
+            <section id="education" class="education">
+                <h2><i class="fas fa-graduation-cap"></i> Educación</h2>
+                <div class="school">
+                    <h3>Prepa Tec de Monterrey Multicultural</h3>
+                    <p>Un poco de alemán</p>
+                </div>
+                <div class="school">
+                    <h3>Ingeniería Física Industrial</h3>
+                    <p>Tecnológico de Monterrey Querétaro | 1 semestre</p>
+                </div>
+                <div class="school">
+                    <h3>Capacitación en Ventas</h3>
+                    <p>Sistema Straight Line System de Jordan Belfort</p>
+                </div>
+                <div class="school">
+                    <h3>AMIB Figura 3 (210)</h3>
+                    <p>Asociados Laura Garza | Aprobado en marzo 2024</p>
+                    <p>Asesor en estrategias de inversión</p>
+                </div>
+            </section>
+            <section id="skills" class="skills">
+                <h2><i class="fas fa-tools"></i> Habilidades</h2>
+                <ul>
+                    <li>Ventas y capacitación de equipos.</li>
+                    <li>Análisis de mercado y trading de futuros.</li>
+                    <li>Gestión de cuentas y cumplimiento regulatorio en criptomonedas.</li>
+                    <li>Supervisión y trabajo en alturas.</li>
+                    <li>Conocimiento en escalada y filosofía amateur.</li>
+                    <li>Competente en economía y geopolítica actual.</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
+
